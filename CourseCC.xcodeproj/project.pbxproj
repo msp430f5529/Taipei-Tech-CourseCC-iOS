@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7108F2C01AF3986400820700 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2BF1AF3986400820700 /* main.m */; };
+		7108F2C31AF3986400820700 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2C21AF3986400820700 /* AppDelegate.m */; };
+		7108F2C91AF3986400820700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7108F2C71AF3986400820700 /* Main.storyboard */; };
+		7108F2CB1AF3986400820700 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7108F2CA1AF3986400820700 /* Images.xcassets */; };
+		7108F2CE1AF3986400820700 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7108F2CC1AF3986400820700 /* LaunchScreen.xib */; };
+		7108F2DA1AF3986400820700 /* CourseCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2D91AF3986400820700 /* CourseCCTests.m */; };
+		7108F2E61AF3999100820700 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2E51AF3999100820700 /* SWRevealViewController.m */; };
+		7108F2EA1AF39C5300820700 /* CourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2E91AF39C5300820700 /* CourseTableViewController.m */; };
+		7108F2F11AF3A51800820700 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2F01AF3A51800820700 /* SidebarTableViewController.m */; };
+		7108F2F71AF3A7F800820700 /* CourseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2F61AF3A7F800820700 /* CourseNavigationViewController.m */; };
+		7108F2FB1AF3B95400820700 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2FA1AF3B95400820700 /* AccountViewController.m */; };
+		7108F2FF1AF44B7200820700 /* CreditsCalculatorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F2FE1AF44B7200820700 /* CreditsCalculatorTableViewController.m */; };
+		7108F30B1AF4B2AB00820700 /* DataAbstract.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F3081AF4B2AB00820700 /* DataAbstract.m */; };
+		7108F30C1AF4B2AB00820700 /* OCRNportal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F30A1AF4B2AB00820700 /* OCRNportal.m */; };
+		7108F31E1AF5D1B600820700 /* SchoolScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F31D1AF5D1B600820700 /* SchoolScheduleViewController.m */; };
+		7108F3271AF5D94F00820700 /* HttpPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F3261AF5D94F00820700 /* HttpPost.m */; };
+		7108F32A1AF7446800820700 /* SchoolScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F3291AF7446800820700 /* SchoolScheduleModel.m */; };
+		7108F32C1AF745CD00820700 /* SchoolScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7108F32B1AF745CD00820700 /* SchoolScheduleTableViewCell.xib */; };
+		7108F32F1AF7D43400820700 /* CourseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108F32E1AF7D43400820700 /* CourseDataModel.m */; };
+		7109A7F41B96C3B300BA4586 /* CourseDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109A7F31B96C3B300BA4586 /* CourseDetailTableViewController.m */; };
+		7109A7F91B96C4ED00BA4586 /* CourseCriticizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7109A7F51B96C4ED00BA4586 /* CourseCriticizeTableViewCell.xib */; };
+		7109A7FA1B96C4ED00BA4586 /* CourseDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7109A7F61B96C4ED00BA4586 /* CourseDescriptionTableViewCell.xib */; };
+		7109A7FB1B96C4ED00BA4586 /* CourseDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7109A7F71B96C4ED00BA4586 /* CourseDetailTableViewCell.xib */; };
+		7109A7FC1B96C4ED00BA4586 /* CourseDetailTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7109A7F81B96C4ED00BA4586 /* CourseDetailTableViewHeader.xib */; };
+		7109A7FF1B97093100BA4586 /* CourseCriticizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109A7FE1B97093100BA4586 /* CourseCriticizeViewController.m */; };
+		7109A8021B97105300BA4586 /* CourseSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109A8011B97105300BA4586 /* CourseSearchTableViewController.m */; };
+		7109A8041B971A0C00BA4586 /* CourseSearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7109A8031B971A0C00BA4586 /* CourseSearchResultCell.xib */; };
+		712F3B8F1AF8E92B00F9530E /* LAECourseDataAbstractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 712F3B8E1AF8E92B00F9530E /* LAECourseDataAbstractor.m */; };
+		712F3B921AF9F93B00F9530E /* CourseCreditsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 712F3B911AF9F93B00F9530E /* CourseCreditsModel.m */; };
+		712F3B951AFA148900F9530E /* QueryScoreDataAbstractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 712F3B941AFA148900F9530E /* QueryScoreDataAbstractor.m */; };
+		712F3B981AFA673F00F9530E /* CustomSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712F3B971AFA673F00F9530E /* CustomSectionHeaderView.xib */; };
+		715D1FCD1B7EE5C100C0C0D2 /* DepartmentSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715D1FCC1B7EE5C100C0C0D2 /* DepartmentSelectionCell.xib */; };
+		715D1FCF1B7EF81000C0C0D2 /* GraduationProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715D1FCE1B7EF81000C0C0D2 /* GraduationProgress.xib */; };
+		716EF6A31AFA770E0054F09B /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716EF6A21AFA770E0054F09B /* CustomTableViewCell.xib */; };
+		716EF6A51AFA89F20054F09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EF6A41AFA89F20054F09B /* Foundation.framework */; };
+		716EF6A71AFA89FD0054F09B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EF6A61AFA89FD0054F09B /* CoreFoundation.framework */; };
+		716EF6A91AFA8A030054F09B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716EF6A81AFA8A030054F09B /* UIKit.framework */; };
+		716EF6AB1AFB3AD20054F09B /* AllCreditsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716EF6AA1AFB3AD20054F09B /* AllCreditsTableViewCell.xib */; };
+		719133AB1B7DD2E100215125 /* GraduationStandardAbstractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 719133AA1B7DD2E100215125 /* GraduationStandardAbstractor.m */; };
+		71993AED1BD67DB90032D601 /* SelectMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71993AEC1BD67DB90032D601 /* SelectMealViewController.m */; };
+		71993AF01BD694790032D601 /* DrawMealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71993AEF1BD694790032D601 /* DrawMealViewController.m */; };
+		71993AFB1BD6997E0032D601 /* giphy_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF21BD6997E0032D601 /* giphy_1.png */; };
+		71993AFC1BD6997E0032D601 /* giphy_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF31BD6997E0032D601 /* giphy_2.png */; };
+		71993AFD1BD6997E0032D601 /* giphy_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF41BD6997E0032D601 /* giphy_3.png */; };
+		71993AFE1BD6997E0032D601 /* giphy_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF51BD6997E0032D601 /* giphy_4.png */; };
+		71993AFF1BD6997E0032D601 /* giphy_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF61BD6997E0032D601 /* giphy_5.png */; };
+		71993B001BD6997E0032D601 /* giphy_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF71BD6997E0032D601 /* giphy_6.png */; };
+		71993B011BD6997E0032D601 /* giphy_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF81BD6997E0032D601 /* giphy_7.png */; };
+		71993B021BD6997E0032D601 /* giphy_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AF91BD6997E0032D601 /* giphy_8.png */; };
+		71993B031BD6997E0032D601 /* giphy_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 71993AFA1BD6997E0032D601 /* giphy_9.png */; };
+		71C0664F1B78D52600517797 /* ScheduleDataAbstractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0664E1B78D52600517797 /* ScheduleDataAbstractor.m */; };
+		71C066571B7AFD1300517797 /* 104NTUT_Schedule.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71C066561B7AFD1300517797 /* 104NTUT_Schedule.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7108F2D41AF3986400820700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7108F2B21AF3986400820700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7108F2B91AF3986400820700;
+			remoteInfo = CourseCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7108F2BA1AF3986400820700 /* CourseCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7108F2BE1AF3986400820700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7108F2BF1AF3986400820700 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7108F2C11AF3986400820700 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7108F2C21AF3986400820700 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7108F2C81AF3986400820700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7108F2CA1AF3986400820700 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7108F2CD1AF3986400820700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7108F2D31AF3986400820700 /* CourseCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7108F2D81AF3986400820700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7108F2D91AF3986400820700 /* CourseCCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseCCTests.m; sourceTree = "<group>"; };
+		7108F2E41AF3999100820700 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7108F2E51AF3999100820700 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7108F2E81AF39C5300820700 /* CourseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseTableViewController.h; path = "課表查詢/CourseTableViewController.h"; sourceTree = "<group>"; };
+		7108F2E91AF39C5300820700 /* CourseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseTableViewController.m; path = "課表查詢/CourseTableViewController.m"; sourceTree = "<group>"; };
+		7108F2EF1AF3A51800820700 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarTableViewController.h; path = Sidebar/SidebarTableViewController.h; sourceTree = "<group>"; };
+		7108F2F01AF3A51800820700 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarTableViewController.m; path = Sidebar/SidebarTableViewController.m; sourceTree = "<group>"; };
+		7108F2F51AF3A7F800820700 /* CourseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseNavigationViewController.h; path = "課表查詢/CourseNavigationViewController.h"; sourceTree = "<group>"; };
+		7108F2F61AF3A7F800820700 /* CourseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseNavigationViewController.m; path = "課表查詢/CourseNavigationViewController.m"; sourceTree = "<group>"; };
+		7108F2F91AF3B95400820700 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = "帳號設定/AccountViewController.h"; sourceTree = "<group>"; };
+		7108F2FA1AF3B95400820700 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = "帳號設定/AccountViewController.m"; sourceTree = "<group>"; };
+		7108F2FD1AF44B7200820700 /* CreditsCalculatorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditsCalculatorTableViewController.h; path = "學分計算/CreditsCalculatorTableViewController.h"; sourceTree = "<group>"; };
+		7108F2FE1AF44B7200820700 /* CreditsCalculatorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditsCalculatorTableViewController.m; path = "學分計算/CreditsCalculatorTableViewController.m"; sourceTree = "<group>"; };
+		7108F3071AF4B2AB00820700 /* DataAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataAbstract.h; path = "課表查詢/nPortalClass/DataAbstract.h"; sourceTree = "<group>"; };
+		7108F3081AF4B2AB00820700 /* DataAbstract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataAbstract.m; path = "課表查詢/nPortalClass/DataAbstract.m"; sourceTree = "<group>"; };
+		7108F3091AF4B2AB00820700 /* OCRNportal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCRNportal.h; path = "課表查詢/nPortalClass/OCRNportal.h"; sourceTree = "<group>"; };
+		7108F30A1AF4B2AB00820700 /* OCRNportal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCRNportal.m; path = "課表查詢/nPortalClass/OCRNportal.m"; sourceTree = "<group>"; };
+		7108F31C1AF5D1B600820700 /* SchoolScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolScheduleViewController.h; path = "行事曆/SchoolScheduleViewController.h"; sourceTree = "<group>"; };
+		7108F31D1AF5D1B600820700 /* SchoolScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolScheduleViewController.m; path = "行事曆/SchoolScheduleViewController.m"; sourceTree = "<group>"; };
+		7108F3251AF5D94F00820700 /* HttpPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpPost.h; path = "課表查詢/nPortalClass/HttpPost.h"; sourceTree = "<group>"; };
+		7108F3261AF5D94F00820700 /* HttpPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpPost.m; path = "課表查詢/nPortalClass/HttpPost.m"; sourceTree = "<group>"; };
+		7108F3281AF7446800820700 /* SchoolScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SchoolScheduleModel.h; path = "行事曆/SchoolScheduleModel.h"; sourceTree = "<group>"; };
+		7108F3291AF7446800820700 /* SchoolScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SchoolScheduleModel.m; path = "行事曆/SchoolScheduleModel.m"; sourceTree = "<group>"; };
+		7108F32B1AF745CD00820700 /* SchoolScheduleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SchoolScheduleTableViewCell.xib; path = "行事曆/SchoolScheduleTableViewCell.xib"; sourceTree = "<group>"; };
+		7108F32D1AF7D43400820700 /* CourseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseDataModel.h; path = "課表查詢/CourseDataModel.h"; sourceTree = "<group>"; };
+		7108F32E1AF7D43400820700 /* CourseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseDataModel.m; path = "課表查詢/CourseDataModel.m"; sourceTree = "<group>"; };
+		7109A7F21B96C3B300BA4586 /* CourseDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseDetailTableViewController.h; path = "課程評論/CourseDetailTableViewController.h"; sourceTree = "<group>"; };
+		7109A7F31B96C3B300BA4586 /* CourseDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseDetailTableViewController.m; path = "課程評論/CourseDetailTableViewController.m"; sourceTree = "<group>"; };
+		7109A7F51B96C4ED00BA4586 /* CourseCriticizeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseCriticizeTableViewCell.xib; path = "課程評論/CourseCriticizeTableViewCell.xib"; sourceTree = "<group>"; };
+		7109A7F61B96C4ED00BA4586 /* CourseDescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseDescriptionTableViewCell.xib; path = "課程評論/CourseDescriptionTableViewCell.xib"; sourceTree = "<group>"; };
+		7109A7F71B96C4ED00BA4586 /* CourseDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseDetailTableViewCell.xib; path = "課程評論/CourseDetailTableViewCell.xib"; sourceTree = "<group>"; };
+		7109A7F81B96C4ED00BA4586 /* CourseDetailTableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseDetailTableViewHeader.xib; path = "課程評論/CourseDetailTableViewHeader.xib"; sourceTree = "<group>"; };
+		7109A7FD1B97093100BA4586 /* CourseCriticizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseCriticizeViewController.h; path = "課程評論/CourseCriticizeViewController.h"; sourceTree = "<group>"; };
+		7109A7FE1B97093100BA4586 /* CourseCriticizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseCriticizeViewController.m; path = "課程評論/CourseCriticizeViewController.m"; sourceTree = "<group>"; };
+		7109A8001B97105300BA4586 /* CourseSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseSearchTableViewController.h; path = "課程評論/CourseSearchTableViewController.h"; sourceTree = "<group>"; };
+		7109A8011B97105300BA4586 /* CourseSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseSearchTableViewController.m; path = "課程評論/CourseSearchTableViewController.m"; sourceTree = "<group>"; };
+		7109A8031B971A0C00BA4586 /* CourseSearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseSearchResultCell.xib; path = "課程評論/CourseSearchResultCell.xib"; sourceTree = "<group>"; };
+		712F3B8D1AF8E92B00F9530E /* LAECourseDataAbstractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LAECourseDataAbstractor.h; path = "學分計算/LAECourseDataAbstractor.h"; sourceTree = "<group>"; };
+		712F3B8E1AF8E92B00F9530E /* LAECourseDataAbstractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LAECourseDataAbstractor.m; path = "學分計算/LAECourseDataAbstractor.m"; sourceTree = "<group>"; };
+		712F3B901AF9F93B00F9530E /* CourseCreditsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseCreditsModel.h; path = "學分計算/CourseCreditsModel.h"; sourceTree = "<group>"; };
+		712F3B911AF9F93B00F9530E /* CourseCreditsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseCreditsModel.m; path = "學分計算/CourseCreditsModel.m"; sourceTree = "<group>"; };
+		712F3B931AFA148900F9530E /* QueryScoreDataAbstractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QueryScoreDataAbstractor.h; path = "學分計算/QueryScoreDataAbstractor.h"; sourceTree = "<group>"; };
+		712F3B941AFA148900F9530E /* QueryScoreDataAbstractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QueryScoreDataAbstractor.m; path = "學分計算/QueryScoreDataAbstractor.m"; sourceTree = "<group>"; };
+		712F3B971AFA673F00F9530E /* CustomSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomSectionHeaderView.xib; path = "學分計算/CustomTableViewCell/CustomSectionHeaderView.xib"; sourceTree = "<group>"; };
+		715D1FCC1B7EE5C100C0C0D2 /* DepartmentSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DepartmentSelectionCell.xib; path = "學分計算/CustomTableViewCell/DepartmentSelectionCell.xib"; sourceTree = "<group>"; };
+		715D1FCE1B7EF81000C0C0D2 /* GraduationProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GraduationProgress.xib; path = "學分計算/CustomTableViewCell/GraduationProgress.xib"; sourceTree = "<group>"; };
+		716EF6A21AFA770E0054F09B /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomTableViewCell.xib; path = "學分計算/CustomTableViewCell/CustomTableViewCell.xib"; sourceTree = "<group>"; };
+		716EF6A41AFA89F20054F09B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		716EF6A61AFA89FD0054F09B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		716EF6A81AFA8A030054F09B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		716EF6AA1AFB3AD20054F09B /* AllCreditsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AllCreditsTableViewCell.xib; path = "學分計算/CustomTableViewCell/AllCreditsTableViewCell.xib"; sourceTree = "<group>"; };
+		719133A91B7DD2E100215125 /* GraduationStandardAbstractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraduationStandardAbstractor.h; path = "學分計算/GraduationStandardAbstractor.h"; sourceTree = "<group>"; };
+		719133AA1B7DD2E100215125 /* GraduationStandardAbstractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraduationStandardAbstractor.m; path = "學分計算/GraduationStandardAbstractor.m"; sourceTree = "<group>"; };
+		71993AEB1BD67DB90032D601 /* SelectMealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectMealViewController.h; path = "今天吃什麼/SelectMealViewController.h"; sourceTree = "<group>"; };
+		71993AEC1BD67DB90032D601 /* SelectMealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectMealViewController.m; path = "今天吃什麼/SelectMealViewController.m"; sourceTree = "<group>"; };
+		71993AEE1BD694790032D601 /* DrawMealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawMealViewController.h; path = "今天吃什麼/DrawMealViewController.h"; sourceTree = "<group>"; };
+		71993AEF1BD694790032D601 /* DrawMealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawMealViewController.m; path = "今天吃什麼/DrawMealViewController.m"; sourceTree = "<group>"; };
+		71993AF21BD6997E0032D601 /* giphy_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_1.png; sourceTree = "<group>"; };
+		71993AF31BD6997E0032D601 /* giphy_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_2.png; sourceTree = "<group>"; };
+		71993AF41BD6997E0032D601 /* giphy_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_3.png; sourceTree = "<group>"; };
+		71993AF51BD6997E0032D601 /* giphy_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_4.png; sourceTree = "<group>"; };
+		71993AF61BD6997E0032D601 /* giphy_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_5.png; sourceTree = "<group>"; };
+		71993AF71BD6997E0032D601 /* giphy_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_6.png; sourceTree = "<group>"; };
+		71993AF81BD6997E0032D601 /* giphy_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_7.png; sourceTree = "<group>"; };
+		71993AF91BD6997E0032D601 /* giphy_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_8.png; sourceTree = "<group>"; };
+		71993AFA1BD6997E0032D601 /* giphy_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giphy_9.png; sourceTree = "<group>"; };
+		71C0664D1B78D52600517797 /* ScheduleDataAbstractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleDataAbstractor.h; path = "行事曆/ScheduleDataAbstractor.h"; sourceTree = "<group>"; };
+		71C0664E1B78D52600517797 /* ScheduleDataAbstractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleDataAbstractor.m; path = "行事曆/ScheduleDataAbstractor.m"; sourceTree = "<group>"; };
+		71C066561B7AFD1300517797 /* 104NTUT_Schedule.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 104NTUT_Schedule.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7108F2B71AF3986400820700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716EF6A91AFA8A030054F09B /* UIKit.framework in Frameworks */,
+				716EF6A71AFA89FD0054F09B /* CoreFoundation.framework in Frameworks */,
+				716EF6A51AFA89F20054F09B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7108F2D01AF3986400820700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7108F2B11AF3986400820700 = {
+			isa = PBXGroup;
+			children = (
+				716EF6A81AFA8A030054F09B /* UIKit.framework */,
+				716EF6A61AFA89FD0054F09B /* CoreFoundation.framework */,
+				716EF6A41AFA89F20054F09B /* Foundation.framework */,
+				7108F2BC1AF3986400820700 /* CourseCC */,
+				7108F2D61AF3986400820700 /* CourseCCTests */,
+				7108F2BB1AF3986400820700 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7108F2BB1AF3986400820700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2BA1AF3986400820700 /* CourseCC.app */,
+				7108F2D31AF3986400820700 /* CourseCCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7108F2BC1AF3986400820700 /* CourseCC */ = {
+			isa = PBXGroup;
+			children = (
+				71993AEA1BD67CB30032D601 /* 今天吃什麼 */,
+				71A37C781B900AF500825EC0 /* 課程評論 */,
+				7108F31B1AF5D18700820700 /* 行事曆 */,
+				7108F2FC1AF44B3700820700 /* 學分計算 */,
+				7108F2F81AF3B90600820700 /* 帳號設定 */,
+				7108F2EB1AF3A46500820700 /* Sidebar */,
+				7108F2E71AF39C2000820700 /* 課表查詢 */,
+				7108F2C11AF3986400820700 /* AppDelegate.h */,
+				7108F2C21AF3986400820700 /* AppDelegate.m */,
+				7108F2C71AF3986400820700 /* Main.storyboard */,
+				7108F2CA1AF3986400820700 /* Images.xcassets */,
+				7108F2CC1AF3986400820700 /* LaunchScreen.xib */,
+				7108F2BD1AF3986400820700 /* Supporting Files */,
+			);
+			path = CourseCC;
+			sourceTree = "<group>";
+		};
+		7108F2BD1AF3986400820700 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2E31AF3999100820700 /* SWRevealViewController */,
+				7108F2BE1AF3986400820700 /* Info.plist */,
+				7108F2BF1AF3986400820700 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7108F2D61AF3986400820700 /* CourseCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2D91AF3986400820700 /* CourseCCTests.m */,
+				7108F2D71AF3986400820700 /* Supporting Files */,
+			);
+			path = CourseCCTests;
+			sourceTree = "<group>";
+		};
+		7108F2D71AF3986400820700 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2D81AF3986400820700 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7108F2E31AF3999100820700 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2E41AF3999100820700 /* SWRevealViewController.h */,
+				7108F2E51AF3999100820700 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		7108F2E71AF39C2000820700 /* 課表查詢 */ = {
+			isa = PBXGroup;
+			children = (
+				7108F3001AF4B1E500820700 /* nPortalClass */,
+				7108F2E81AF39C5300820700 /* CourseTableViewController.h */,
+				7108F2E91AF39C5300820700 /* CourseTableViewController.m */,
+				7108F2F51AF3A7F800820700 /* CourseNavigationViewController.h */,
+				7108F2F61AF3A7F800820700 /* CourseNavigationViewController.m */,
+				7108F32D1AF7D43400820700 /* CourseDataModel.h */,
+				7108F32E1AF7D43400820700 /* CourseDataModel.m */,
+			);
+			name = "課表查詢";
+			sourceTree = "<group>";
+		};
+		7108F2EB1AF3A46500820700 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2EF1AF3A51800820700 /* SidebarTableViewController.h */,
+				7108F2F01AF3A51800820700 /* SidebarTableViewController.m */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		7108F2F81AF3B90600820700 /* 帳號設定 */ = {
+			isa = PBXGroup;
+			children = (
+				7108F2F91AF3B95400820700 /* AccountViewController.h */,
+				7108F2FA1AF3B95400820700 /* AccountViewController.m */,
+			);
+			name = "帳號設定";
+			sourceTree = "<group>";
+		};
+		7108F2FC1AF44B3700820700 /* 學分計算 */ = {
+			isa = PBXGroup;
+			children = (
+				712F3B961AFA66EC00F9530E /* CustomTableViewCell */,
+				712F3B8D1AF8E92B00F9530E /* LAECourseDataAbstractor.h */,
+				712F3B8E1AF8E92B00F9530E /* LAECourseDataAbstractor.m */,
+				7108F2FD1AF44B7200820700 /* CreditsCalculatorTableViewController.h */,
+				7108F2FE1AF44B7200820700 /* CreditsCalculatorTableViewController.m */,
+				712F3B901AF9F93B00F9530E /* CourseCreditsModel.h */,
+				712F3B911AF9F93B00F9530E /* CourseCreditsModel.m */,
+				712F3B931AFA148900F9530E /* QueryScoreDataAbstractor.h */,
+				712F3B941AFA148900F9530E /* QueryScoreDataAbstractor.m */,
+				719133A91B7DD2E100215125 /* GraduationStandardAbstractor.h */,
+				719133AA1B7DD2E100215125 /* GraduationStandardAbstractor.m */,
+			);
+			name = "學分計算";
+			sourceTree = "<group>";
+		};
+		7108F3001AF4B1E500820700 /* nPortalClass */ = {
+			isa = PBXGroup;
+			children = (
+				7108F3071AF4B2AB00820700 /* DataAbstract.h */,
+				7108F3081AF4B2AB00820700 /* DataAbstract.m */,
+				7108F3091AF4B2AB00820700 /* OCRNportal.h */,
+				7108F30A1AF4B2AB00820700 /* OCRNportal.m */,
+				7108F3251AF5D94F00820700 /* HttpPost.h */,
+				7108F3261AF5D94F00820700 /* HttpPost.m */,
+			);
+			name = nPortalClass;
+			sourceTree = "<group>";
+		};
+		7108F31B1AF5D18700820700 /* 行事曆 */ = {
+			isa = PBXGroup;
+			children = (
+				71C066561B7AFD1300517797 /* 104NTUT_Schedule.txt */,
+				7108F31C1AF5D1B600820700 /* SchoolScheduleViewController.h */,
+				7108F31D1AF5D1B600820700 /* SchoolScheduleViewController.m */,
+				7108F3281AF7446800820700 /* SchoolScheduleModel.h */,
+				7108F3291AF7446800820700 /* SchoolScheduleModel.m */,
+				7108F32B1AF745CD00820700 /* SchoolScheduleTableViewCell.xib */,
+				71C0664D1B78D52600517797 /* ScheduleDataAbstractor.h */,
+				71C0664E1B78D52600517797 /* ScheduleDataAbstractor.m */,
+			);
+			name = "行事曆";
+			sourceTree = "<group>";
+		};
+		712F3B961AFA66EC00F9530E /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				712F3B971AFA673F00F9530E /* CustomSectionHeaderView.xib */,
+				716EF6A21AFA770E0054F09B /* CustomTableViewCell.xib */,
+				716EF6AA1AFB3AD20054F09B /* AllCreditsTableViewCell.xib */,
+				715D1FCC1B7EE5C100C0C0D2 /* DepartmentSelectionCell.xib */,
+				715D1FCE1B7EF81000C0C0D2 /* GraduationProgress.xib */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		71993AEA1BD67CB30032D601 /* 今天吃什麼 */ = {
+			isa = PBXGroup;
+			children = (
+				71993AF11BD6997E0032D601 /* GIF */,
+				71993AEB1BD67DB90032D601 /* SelectMealViewController.h */,
+				71993AEC1BD67DB90032D601 /* SelectMealViewController.m */,
+				71993AEE1BD694790032D601 /* DrawMealViewController.h */,
+				71993AEF1BD694790032D601 /* DrawMealViewController.m */,
+			);
+			name = "今天吃什麼";
+			sourceTree = "<group>";
+		};
+		71993AF11BD6997E0032D601 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				71993AF21BD6997E0032D601 /* giphy_1.png */,
+				71993AF31BD6997E0032D601 /* giphy_2.png */,
+				71993AF41BD6997E0032D601 /* giphy_3.png */,
+				71993AF51BD6997E0032D601 /* giphy_4.png */,
+				71993AF61BD6997E0032D601 /* giphy_5.png */,
+				71993AF71BD6997E0032D601 /* giphy_6.png */,
+				71993AF81BD6997E0032D601 /* giphy_7.png */,
+				71993AF91BD6997E0032D601 /* giphy_8.png */,
+				71993AFA1BD6997E0032D601 /* giphy_9.png */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		71A37C781B900AF500825EC0 /* 課程評論 */ = {
+			isa = PBXGroup;
+			children = (
+				7109A7F51B96C4ED00BA4586 /* CourseCriticizeTableViewCell.xib */,
+				7109A7F61B96C4ED00BA4586 /* CourseDescriptionTableViewCell.xib */,
+				7109A7F71B96C4ED00BA4586 /* CourseDetailTableViewCell.xib */,
+				7109A7F81B96C4ED00BA4586 /* CourseDetailTableViewHeader.xib */,
+				7109A8031B971A0C00BA4586 /* CourseSearchResultCell.xib */,
+				7109A7F21B96C3B300BA4586 /* CourseDetailTableViewController.h */,
+				7109A7F31B96C3B300BA4586 /* CourseDetailTableViewController.m */,
+				7109A7FD1B97093100BA4586 /* CourseCriticizeViewController.h */,
+				7109A7FE1B97093100BA4586 /* CourseCriticizeViewController.m */,
+				7109A8001B97105300BA4586 /* CourseSearchTableViewController.h */,
+				7109A8011B97105300BA4586 /* CourseSearchTableViewController.m */,
+			);
+			name = "課程評論";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7108F2B91AF3986400820700 /* CourseCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7108F2DD1AF3986400820700 /* Build configuration list for PBXNativeTarget "CourseCC" */;
+			buildPhases = (
+				7108F2B61AF3986400820700 /* Sources */,
+				7108F2B71AF3986400820700 /* Frameworks */,
+				7108F2B81AF3986400820700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CourseCC;
+			productName = CourseCC;
+			productReference = 7108F2BA1AF3986400820700 /* CourseCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7108F2D21AF3986400820700 /* CourseCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7108F2E01AF3986400820700 /* Build configuration list for PBXNativeTarget "CourseCCTests" */;
+			buildPhases = (
+				7108F2CF1AF3986400820700 /* Sources */,
+				7108F2D01AF3986400820700 /* Frameworks */,
+				7108F2D11AF3986400820700 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7108F2D51AF3986400820700 /* PBXTargetDependency */,
+			);
+			name = CourseCCTests;
+			productName = CourseCCTests;
+			productReference = 7108F2D31AF3986400820700 /* CourseCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7108F2B21AF3986400820700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Luther Tsai";
+				TargetAttributes = {
+					7108F2B91AF3986400820700 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LA3P8D483M;
+					};
+					7108F2D21AF3986400820700 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 7108F2B91AF3986400820700;
+					};
+				};
+			};
+			buildConfigurationList = 7108F2B51AF3986400820700 /* Build configuration list for PBXProject "CourseCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7108F2B11AF3986400820700;
+			productRefGroup = 7108F2BB1AF3986400820700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7108F2B91AF3986400820700 /* CourseCC */,
+				7108F2D21AF3986400820700 /* CourseCCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7108F2B81AF3986400820700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71993B001BD6997E0032D601 /* giphy_6.png in Resources */,
+				71993B011BD6997E0032D601 /* giphy_7.png in Resources */,
+				7108F32C1AF745CD00820700 /* SchoolScheduleTableViewCell.xib in Resources */,
+				716EF6AB1AFB3AD20054F09B /* AllCreditsTableViewCell.xib in Resources */,
+				7108F2C91AF3986400820700 /* Main.storyboard in Resources */,
+				716EF6A31AFA770E0054F09B /* CustomTableViewCell.xib in Resources */,
+				71993B021BD6997E0032D601 /* giphy_8.png in Resources */,
+				7109A7FB1B96C4ED00BA4586 /* CourseDetailTableViewCell.xib in Resources */,
+				715D1FCF1B7EF81000C0C0D2 /* GraduationProgress.xib in Resources */,
+				7109A7FC1B96C4ED00BA4586 /* CourseDetailTableViewHeader.xib in Resources */,
+				715D1FCD1B7EE5C100C0C0D2 /* DepartmentSelectionCell.xib in Resources */,
+				71993AFE1BD6997E0032D601 /* giphy_4.png in Resources */,
+				712F3B981AFA673F00F9530E /* CustomSectionHeaderView.xib in Resources */,
+				71993AFD1BD6997E0032D601 /* giphy_3.png in Resources */,
+				7109A8041B971A0C00BA4586 /* CourseSearchResultCell.xib in Resources */,
+				71993B031BD6997E0032D601 /* giphy_9.png in Resources */,
+				7108F2CE1AF3986400820700 /* LaunchScreen.xib in Resources */,
+				7109A7F91B96C4ED00BA4586 /* CourseCriticizeTableViewCell.xib in Resources */,
+				71C066571B7AFD1300517797 /* 104NTUT_Schedule.txt in Resources */,
+				71993AFF1BD6997E0032D601 /* giphy_5.png in Resources */,
+				7108F2CB1AF3986400820700 /* Images.xcassets in Resources */,
+				7109A7FA1B96C4ED00BA4586 /* CourseDescriptionTableViewCell.xib in Resources */,
+				71993AFC1BD6997E0032D601 /* giphy_2.png in Resources */,
+				71993AFB1BD6997E0032D601 /* giphy_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7108F2D11AF3986400820700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7108F2B61AF3986400820700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7108F30C1AF4B2AB00820700 /* OCRNportal.m in Sources */,
+				7108F2FF1AF44B7200820700 /* CreditsCalculatorTableViewController.m in Sources */,
+				7108F30B1AF4B2AB00820700 /* DataAbstract.m in Sources */,
+				7108F2EA1AF39C5300820700 /* CourseTableViewController.m in Sources */,
+				7109A7FF1B97093100BA4586 /* CourseCriticizeViewController.m in Sources */,
+				7108F32A1AF7446800820700 /* SchoolScheduleModel.m in Sources */,
+				712F3B921AF9F93B00F9530E /* CourseCreditsModel.m in Sources */,
+				712F3B8F1AF8E92B00F9530E /* LAECourseDataAbstractor.m in Sources */,
+				7108F2C31AF3986400820700 /* AppDelegate.m in Sources */,
+				7108F2C01AF3986400820700 /* main.m in Sources */,
+				7108F32F1AF7D43400820700 /* CourseDataModel.m in Sources */,
+				7108F2E61AF3999100820700 /* SWRevealViewController.m in Sources */,
+				7108F2F71AF3A7F800820700 /* CourseNavigationViewController.m in Sources */,
+				7108F3271AF5D94F00820700 /* HttpPost.m in Sources */,
+				7109A8021B97105300BA4586 /* CourseSearchTableViewController.m in Sources */,
+				71993AED1BD67DB90032D601 /* SelectMealViewController.m in Sources */,
+				7109A7F41B96C3B300BA4586 /* CourseDetailTableViewController.m in Sources */,
+				7108F31E1AF5D1B600820700 /* SchoolScheduleViewController.m in Sources */,
+				7108F2FB1AF3B95400820700 /* AccountViewController.m in Sources */,
+				712F3B951AFA148900F9530E /* QueryScoreDataAbstractor.m in Sources */,
+				7108F2F11AF3A51800820700 /* SidebarTableViewController.m in Sources */,
+				719133AB1B7DD2E100215125 /* GraduationStandardAbstractor.m in Sources */,
+				71C0664F1B78D52600517797 /* ScheduleDataAbstractor.m in Sources */,
+				71993AF01BD694790032D601 /* DrawMealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7108F2CF1AF3986400820700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7108F2DA1AF3986400820700 /* CourseCCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7108F2D51AF3986400820700 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7108F2B91AF3986400820700 /* CourseCC */;
+			targetProxy = 7108F2D41AF3986400820700 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7108F2C71AF3986400820700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7108F2C81AF3986400820700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7108F2CC1AF3986400820700 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7108F2CD1AF3986400820700 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7108F2DB1AF3986400820700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7108F2DC1AF3986400820700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7108F2DE1AF3986400820700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CourseCC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7108F2DF1AF3986400820700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CourseCC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7108F2E11AF3986400820700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CourseCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseCC.app/CourseCC";
+			};
+			name = Debug;
+		};
+		7108F2E21AF3986400820700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CourseCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseCC.app/CourseCC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7108F2B51AF3986400820700 /* Build configuration list for PBXProject "CourseCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108F2DB1AF3986400820700 /* Debug */,
+				7108F2DC1AF3986400820700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7108F2DD1AF3986400820700 /* Build configuration list for PBXNativeTarget "CourseCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108F2DE1AF3986400820700 /* Debug */,
+				7108F2DF1AF3986400820700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7108F2E01AF3986400820700 /* Build configuration list for PBXNativeTarget "CourseCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108F2E11AF3986400820700 /* Debug */,
+				7108F2E21AF3986400820700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7108F2B21AF3986400820700 /* Project object */;
+}

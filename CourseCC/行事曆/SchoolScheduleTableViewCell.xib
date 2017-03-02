@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchoolScheduleViewController">
+            <connections>
+                <outlet property="Date" destination="8tx-rl-4qr" id="4pl-q6-L1L"/>
+                <outlet property="EventOfNTUT" destination="1fv-F9-n6d" id="3qu-ay-GNQ"/>
+                <outlet property="Weekday" destination="sPp-Pu-69U" id="qJO-YT-LG8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ey3-bu-aTc">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ey3-bu-aTc" id="P6k-7J-qs8">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tx-rl-4qr">
+                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                        <color key="backgroundColor" red="0.3399863139" green="0.70494981749999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="Ooe-iZ-C7F"/>
+                            <constraint firstAttribute="width" constant="44" id="cTQ-aI-xGa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="五" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPp-Pu-69U">
+                        <rect key="frame" x="26" y="26" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="NqC-8a-EDh"/>
+                            <constraint firstAttribute="height" constant="18" id="dp3-iI-KH7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是學校行事曆" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="1fv-F9-n6d">
+                        <rect key="frame" x="52" y="8" width="260" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="rAI-yz-0gq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sPp-Pu-69U" firstAttribute="leading" secondItem="P6k-7J-qs8" secondAttribute="leadingMargin" constant="18" id="A3n-Ns-w6M"/>
+                    <constraint firstItem="1fv-F9-n6d" firstAttribute="bottom" secondItem="P6k-7J-qs8" secondAttribute="bottomMargin" id="Ahe-7A-zPT"/>
+                    <constraint firstItem="8tx-rl-4qr" firstAttribute="top" secondItem="P6k-7J-qs8" secondAttribute="topMargin" constant="-8" id="SCf-mU-O6m"/>
+                    <constraint firstItem="sPp-Pu-69U" firstAttribute="top" secondItem="P6k-7J-qs8" secondAttribute="topMargin" constant="18" id="UnB-BS-0ev"/>
+                    <constraint firstItem="1fv-F9-n6d" firstAttribute="top" secondItem="P6k-7J-qs8" secondAttribute="topMargin" id="bMs-ML-ElN"/>
+                    <constraint firstItem="1fv-F9-n6d" firstAttribute="trailing" secondItem="P6k-7J-qs8" secondAttribute="trailingMargin" id="kFr-eF-zoL"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8tx-rl-4qr" secondAttribute="bottom" constant="-9" id="kpt-be-2q9"/>
+                    <constraint firstItem="8tx-rl-4qr" firstAttribute="leading" secondItem="P6k-7J-qs8" secondAttribute="leadingMargin" constant="-8" id="mYi-9W-vbc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sPp-Pu-69U" secondAttribute="bottom" constant="-9" id="pkd-st-5ZQ"/>
+                    <constraint firstItem="1fv-F9-n6d" firstAttribute="leading" secondItem="sPp-Pu-69U" secondAttribute="trailing" constant="8" id="va1-PG-e3V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="204" y="154"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreditsCalculatorTableViewController">
+            <connections>
+                <outlet property="courseTypeCredits" destination="ifD-5I-2Yi" id="53a-CE-6hG"/>
+                <outlet property="courseTypeTitleLabel" destination="Ite-LY-MBf" id="ibf-sZ-x5f"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8fF-8O-if6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8fF-8O-if6" id="I8R-fh-2yG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="○ 部訂共同必修" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ite-LY-MBf">
+                        <rect key="frame" x="8" y="8" width="180" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="8fq-ji-4Mt"/>
+                            <constraint firstAttribute="width" constant="180" id="Exz-cT-wg2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9學分" textAlignment="right" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="ifD-5I-2Yi">
+                        <rect key="frame" x="196" y="8" width="116" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="Qpb-FA-ehV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ite-LY-MBf" firstAttribute="top" secondItem="I8R-fh-2yG" secondAttribute="topMargin" id="Czs-VE-gKj"/>
+                    <constraint firstItem="ifD-5I-2Yi" firstAttribute="trailing" secondItem="I8R-fh-2yG" secondAttribute="trailingMargin" id="DQT-ay-qBu"/>
+                    <constraint firstItem="Ite-LY-MBf" firstAttribute="leading" secondItem="I8R-fh-2yG" secondAttribute="leadingMargin" id="W6v-t6-Weu"/>
+                    <constraint firstItem="ifD-5I-2Yi" firstAttribute="top" secondItem="I8R-fh-2yG" secondAttribute="topMargin" id="W8G-u8-ftQ"/>
+                    <constraint firstItem="Ite-LY-MBf" firstAttribute="bottom" secondItem="I8R-fh-2yG" secondAttribute="bottomMargin" id="dHq-5o-XXy"/>
+                    <constraint firstItem="ifD-5I-2Yi" firstAttribute="bottom" secondItem="I8R-fh-2yG" secondAttribute="bottomMargin" id="oT8-bd-pvR"/>
+                    <constraint firstItem="ifD-5I-2Yi" firstAttribute="leading" secondItem="Ite-LY-MBf" secondAttribute="trailing" constant="8" id="snr-T9-2vl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="227" y="150"/>
+        </tableViewCell>
+    </objects>
+</document>

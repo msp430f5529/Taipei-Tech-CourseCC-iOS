@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreditsCalculatorTableViewController">
+            <connections>
+                <outlet property="HeaderButton" destination="bLS-WC-ctu" id="Pk0-to-T0a"/>
+                <outlet property="HeaderInfoLabel" destination="y1f-1u-ZrR" id="ZDy-hk-zM8"/>
+                <outlet property="HeaderTitleLabel" destination="kcV-w4-sDW" id="Nis-MR-ZLs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KJU-UK-1OI">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="學分總覽" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="kcV-w4-sDW">
+                    <rect key="frame" x="8" y="8" width="108" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="tkR-ew-Csz"/>
+                        <constraint firstAttribute="width" constant="108" id="w9t-vA-YDB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="實得學分：99" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="y1f-1u-ZrR">
+                    <rect key="frame" x="124" y="8" width="188" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="GFR-9R-6bF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="STHeitiTC-Light" family="Heiti TC" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLS-WC-ctu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="y1f-1u-ZrR" firstAttribute="top" secondItem="KJU-UK-1OI" secondAttribute="top" constant="8" id="37e-Q7-U3K"/>
+                <constraint firstAttribute="trailing" secondItem="y1f-1u-ZrR" secondAttribute="trailing" constant="8" id="CWG-oT-XHt"/>
+                <constraint firstAttribute="trailing" secondItem="bLS-WC-ctu" secondAttribute="trailing" id="F1f-29-Sca"/>
+                <constraint firstAttribute="centerX" secondItem="bLS-WC-ctu" secondAttribute="centerX" id="H0z-Gb-TaN"/>
+                <constraint firstAttribute="bottom" secondItem="bLS-WC-ctu" secondAttribute="bottom" id="L0f-Mf-Dlt"/>
+                <constraint firstItem="bLS-WC-ctu" firstAttribute="leading" secondItem="KJU-UK-1OI" secondAttribute="leading" id="Opu-QA-v7r"/>
+                <constraint firstItem="kcV-w4-sDW" firstAttribute="top" secondItem="KJU-UK-1OI" secondAttribute="top" constant="8" id="Ozx-gu-9Cq"/>
+                <constraint firstItem="y1f-1u-ZrR" firstAttribute="leading" secondItem="kcV-w4-sDW" secondAttribute="trailing" constant="8" id="Rad-hQ-f6h"/>
+                <constraint firstAttribute="bottom" secondItem="kcV-w4-sDW" secondAttribute="bottom" constant="8" id="WGT-Dd-nLh"/>
+                <constraint firstItem="kcV-w4-sDW" firstAttribute="leading" secondItem="KJU-UK-1OI" secondAttribute="leading" constant="8" id="d4A-aU-uaQ"/>
+                <constraint firstAttribute="bottom" secondItem="y1f-1u-ZrR" secondAttribute="bottom" constant="8" id="tao-Oo-oLU"/>
+                <constraint firstAttribute="centerY" secondItem="bLS-WC-ctu" secondAttribute="centerY" id="wDF-Ue-G75"/>
+                <constraint firstItem="bLS-WC-ctu" firstAttribute="top" secondItem="KJU-UK-1OI" secondAttribute="top" id="xLT-6d-qOJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="85" y="94"/>
+        </view>
+    </objects>
+</document>
